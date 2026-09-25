@@ -1,0 +1,21 @@
+name: Feature request
+description: Propose a scoped capability
+title: "feature: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Data source and limitations
+      description: Explain whether inputs are live, external, or simulated.

@@ -1,0 +1,27 @@
+name: Bug report
+description: Report reproducible behavior
+title: "fix: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Do not include keys, seed phrases, or private RPC credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Node version, browser, cluster, and commit if known.
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Data source and expected behavior
+      description: Identify LIVE / SOLANA, EXTERNAL MARKET, or SIMULATED RESEARCH.

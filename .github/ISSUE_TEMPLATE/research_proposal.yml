@@ -1,0 +1,33 @@
+name: Research proposal
+description: Suggest a testable experiment
+title: "research: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: State a falsifiable hypothesis without claiming validated results.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data source and rights
+    validations:
+      required: true
+  - type: textarea
+    id: mapping
+    attributes:
+      label: Web mapping and expected behavior
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and evaluation plan
+    validations:
+      required: true

@@ -7,6 +7,8 @@ dist/
 .env.*
 !.env.example
 *.log
+private/
+secrets/
 *.pem
 *.key
 *.p12
@@ -15,4 +17,3 @@ dist/
 *private*.json
 .DS_Store
 Thumbs.db
-

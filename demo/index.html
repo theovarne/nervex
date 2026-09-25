@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NERVEX open-source Solana sensing research harness">
+  <title>NERVEX / Research Harness</title>
+  <link rel="stylesheet" href="/demo/styles.css">
+  <script type="module" src="/demo/app.js"></script>
+</head>
+<body>
+  <header>
+    <a class="brand" href="https://nervex.app/">NERVEX<span> / LAB</span></a>
+    <nav><a href="https://nervex.app/">Website</a><a href="https://github.com/theovarne/nervex">Source</a></nav>
+  </header>
+  <main>
+    <p class="eyebrow">OPEN-SOURCE RESEARCH HARNESS // SOLANA</p>
+    <h1>THE WEB IS THE<br><em>NERVOUS SYSTEM.</em></h1>
+    <p class="lead">A deliberately small test surface for live Solana sensing and explicitly simulated cognition. This is not the full production website.</p>
+    <div class="grid">
+      <section class="panel">
+        <div class="panel-head"><h2>01 / SOLANA FEED</h2><span class="tag live">LIVE / SOLANA</span></div>
+        <dl>
+          <div><dt>Network</dt><dd id="network">Mainnet Beta</dd></div>
+          <div><dt>Finalized slot</dt><dd id="slot">CHECKING</dd></div>
+          <div><dt>Sample signature</dt><dd id="signature">UNAVAILABLE</dd></div>
+          <div><dt>Provider state</dt><dd id="provider-state">CHECKING</dd></div>
+        </dl>
+        <button id="refresh" type="button">REFRESH LIVE DATA ↗</button>
+        <p class="note">No Solana response is replaced with invented data.</p>
+      </section>
+      <section class="panel">
+        <div class="panel-head"><h2>02 / COGNITION</h2><span class="tag simulated">SIMULATED RESEARCH</span></div>
+        <dl>
+          <div><dt>State</dt><dd id="cognition">IDLE</dd></div>
+          <div><dt>Tension</dt><dd id="tension">UNAVAILABLE</dd></div>
+          <div><dt>Fly candidate</dt><dd id="fly">UNAVAILABLE</dd></div>
+          <div><dt>Source</dt><dd>SIMULATED RESEARCH</dd></div>
+        </dl>
+        <button id="simulate" type="button">RUN LAB EXAMPLE ↗</button>
+        <p class="note">The example is a fixed test vector, not a market observation or prediction.</p>
+      </section>
+      <section class="panel">
+        <div class="panel-head"><h2>03 / WALLET</h2><span class="tag">LOCAL USER ACTION</span></div>
+        <dl>
+          <div><dt>Detected wallets</dt><dd id="wallet-count">0</dd></div>
+          <div><dt>Selected</dt><dd id="wallet-name">NONE</dd></div>
+          <div><dt>Address</dt><dd id="wallet-address">NOT CONNECTED</dd></div>
+        </dl>
+        <select id="wallet-select" aria-label="Select Solana wallet"><option value="">SELECT WALLET</option></select>
+        <button id="connect" type="button">REQUEST WALLET CONNECTION ↗</button>
+        <p class="note">Connection is requested only after you click; wallet approval remains yours.</p>
+      </section>
+    </div>
+    <aside class="disclaimer">EXPERIMENTAL SOFTWARE // NOT FINANCIAL ADVICE // NO AUTONOMOUS TRADING</aside>
+  </main>
+  <footer><span>THE SPIDER IS THE ARCHITECTURE. THE WEB IS THE MODEL.</span><a href="https://nervex.app/">nervex.app ↗</a></footer>
+</body>
+</html>
